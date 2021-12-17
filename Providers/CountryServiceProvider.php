@@ -67,7 +67,7 @@ class CountryServiceProvider extends ServiceProvider
     {
         $viewPath = resource_path('views/modules/' . $this->moduleNameLower);
 
-        $sourcePath =  __DIR__.'/../Resources/views';
+        $sourcePath =  base_path('Modules/Country/Resources/views');
 
         $this->publishes([
             $sourcePath => $viewPath
