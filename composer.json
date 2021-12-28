@@ -18,8 +18,9 @@
         }
     },
     "autoload": {
-        "psr-4": {
-            "Modules\\Country\\": ""
+        "psr-0": {
+            "Country\\": "src/"
         }
-    }
+    },
+    "deps": ["Modules/Core"]
 }
